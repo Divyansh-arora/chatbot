@@ -12,7 +12,7 @@ const generateLocationMessage = (username, url) => {
         url,
         createdAt: new Date().getTime()
     }
-}
+} 
 
 module.exports = {
     generateMessage,
